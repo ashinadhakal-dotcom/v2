@@ -12,7 +12,7 @@ def generate_hash(text: str) -> str:
     return hashlib.sha256(normalized.encode("utf-8")).hexdigest()
 
 
-# ── Text Cleaning ─────────────────────────────────────────────────────────────
+# ── Text  ─────────────────────────────────────────────────────────────
 
 def clean_wiki_text(text: str) -> str:
     """
